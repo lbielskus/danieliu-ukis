@@ -32,15 +32,12 @@ export default function HomePage() {
           <div className='grid lg:grid-cols-2 gap-8 lg:gap-12 items-center'>
             <div className='text-center lg:text-left order-2 lg:order-1'>
               <h1 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 sm:mb-6'>
-                Patirti Gamtos
-                <span className='text-emerald-600'>
-                  {' '}
-                  Didinguosius Danielius
-                </span>
+                Patirtis Gamtoje
+                <span className='text-emerald-600'> Su Danieliais</span>
               </h1>
               <p className='text-lg sm:text-xl text-gray-600 mb-6 sm:mb-8 max-w-2xl mx-auto lg:mx-0'>
-                Aplankykite mūsų Europos danielių ūkį ir pamatykite šiuos
-                nuostabius gyvūnus jų natūralioje aplinkoje. Užsisakykite gidų
+                Aplankykite mūsų europietiškų danielių ūkį ir pamatykite šiuos
+                nuostabius gyvūnus jų natūralioje aplinkoje. Užsisakykite gido
                 ekskursiją ir sukurkite nepamirštamus prisiminimus su šeima ir
                 draugais.
               </p>
@@ -51,7 +48,7 @@ export default function HomePage() {
                   className='text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4 bg-emerald-600 hover:bg-emerald-700'
                 >
                   <Link href='/book/deer-farm'>
-                    Užsisakyti Apsilankymą
+                    Laiko rezervacija
                     <ArrowRight className='ml-2 h-4 w-4 sm:h-5 sm:w-5' />
                   </Link>
                 </Button>
@@ -80,9 +77,9 @@ export default function HomePage() {
               Apie Mūsų Danielių Ūkį
             </h2>
             <p className='text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto'>
-              Mūsų šeimos ūkis jau daugiau nei dešimtmetį yra Europos danielių
-              namai. Siūlome gidų ekskursijas, kuriose galėsite iš arti stebėti
-              šiuos gražius gyvūnus ir sužinoti apie jų elgesį bei buveinę.
+              Mūsų šeimos ūkis jau dešimtmetį yra europietiškų danielių namai.
+              Siūlome gido ekskursijas, kuriose galėsite iš arti stebėti šiuos
+              gražius gyvūnus ir sužinoti apie jų elgesį bei buveinę.
             </p>
           </div>
 
@@ -91,11 +88,11 @@ export default function HomePage() {
               <CardHeader className='text-center'>
                 <Calendar className='h-10 w-10 sm:h-12 sm:w-12 text-emerald-600 mb-4 mx-auto' />
                 <CardTitle className='text-emerald-800'>
-                  Gidų Ekskursijos
+                  Gido Ekskursijos
                 </CardTitle>
                 <CardDescription className='text-gray-600'>
-                  Profesionalių gidų ekskursijos kasdien. Sužinokite apie
-                  danielių elgesį, mitybos įpročius ir apsaugos pastangas.
+                  Profesionalaus gido ekskursijos kasdien. Sužinokite apie
+                  danielių elgesį, mitybos įpročius ir jų pastangas apsisaugoti.
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -104,7 +101,7 @@ export default function HomePage() {
               <CardHeader className='text-center'>
                 <Users className='h-10 w-10 sm:h-12 sm:w-12 text-blue-600 mb-4 mx-auto' />
                 <CardTitle className='text-blue-800'>
-                  Šeimoms Draugiška
+                  Pritaikyta Šeimoms
                 </CardTitle>
                 <CardDescription className='text-gray-600'>
                   Puikiai tinka šeimoms su vaikais. Švietėjiška ir pramoginga
@@ -117,10 +114,10 @@ export default function HomePage() {
               <CardHeader className='text-center'>
                 <Clock className='h-10 w-10 sm:h-12 sm:w-12 text-amber-600 mb-4 mx-auto' />
                 <CardTitle className='text-amber-800'>
-                  Lankstūs Laikai
+                  Lankstus grafikas
                 </CardTitle>
                 <CardDescription className='text-gray-600'>
-                  Keletas laiko intervalų per dieną. Užsisakykite laiką, kuris
+                  Keletas rezervacijų per dieną. Užsisakykite laiką, kuris
                   geriausiai tinka jūsų tvarkaraščiui.
                 </CardDescription>
               </CardHeader>
@@ -139,8 +136,9 @@ export default function HomePage() {
             Planuokite Savo Apsilankymą
           </h2>
           <p className='text-lg sm:text-xl text-emerald-100 mb-6 sm:mb-8 max-w-2xl mx-auto'>
-            Pasiruošę patirti Europos danielių grožį? Užsisakykite apsilankymą
-            šiandien ir sukurkite prisiminimus, kurie išliks visam gyvenimui.
+            Pasiruošę patirti europietiškų danielių grožį? Užsisakykite
+            apsilankymą šiandien ir sukurkite prisiminimus, kurie išliks visam
+            gyvenimui.
           </p>
 
           <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-6 sm:mb-8'>
@@ -150,9 +148,9 @@ export default function HomePage() {
                 Vieta
               </h3>
               <p className='text-sm sm:text-base text-emerald-100'>
-                Kaimo Danielių Ūkis
+                Bagotšilio ūkis
                 <br />
-                Kaimo Slėnis, Gamtos Apskritis
+                Antanavo g. 1, Kazlų Rūdos savivaldybė
               </p>
             </div>
             <div className='text-center'>
@@ -172,7 +170,7 @@ export default function HomePage() {
                 Kontaktai
               </h3>
               <p className='text-sm sm:text-base text-emerald-100'>
-                +370 123 45678
+                +370 69803302
                 <br />
                 info@danieliuukis.lt
               </p>
@@ -212,7 +210,7 @@ export default function HomePage() {
                 </span>
               </div>
               <p className='text-gray-400 text-sm sm:text-base'>
-                Patirti Europos danielių grožį jų natūralioje aplinkoje.
+                Patirkite europietiškų danielių grožį jų natūralioje aplinkoje.
               </p>
             </div>
             <div>
@@ -256,7 +254,7 @@ export default function HomePage() {
                     href='/faq'
                     className='hover:text-white transition-colors'
                   >
-                    DUK
+                    D.U.K.
                   </Link>
                 </li>
                 <li>
@@ -284,7 +282,7 @@ export default function HomePage() {
               <ul className='space-y-2 text-gray-400 text-sm sm:text-base'>
                 <li className='flex items-center space-x-2'>
                   <Phone className='h-4 w-4 flex-shrink-0' />
-                  <span>+370 123 45678</span>
+                  <span>+370 698 03302</span>
                 </li>
                 <li className='flex items-center space-x-2'>
                   <Mail className='h-4 w-4 flex-shrink-0' />
@@ -292,13 +290,31 @@ export default function HomePage() {
                 </li>
                 <li className='flex items-start space-x-2'>
                   <MapPin className='h-4 w-4 flex-shrink-0 mt-0.5' />
-                  <span>Kaimo Slėnis, Gamtos Apskritis</span>
+                  <span>Antanavo g. 1, Kazlų Rūdos savivaldybė</span>
                 </li>
               </ul>
             </div>
           </div>
           <div className='border-t border-gray-800 mt-6 sm:mt-8 pt-6 sm:pt-8 text-center text-gray-400 text-sm sm:text-base'>
-            <p>&copy; 2024 Danielių Ūkio Ekskursijos. Visos teisės saugomos.</p>
+            <p> 2025 Danielių Ūkio Ekskursijos. Visos teisės saugomos.</p>
+            <p>
+              Svetainė sukurta &copy; "
+              <a
+                href='https://lbvisible.com'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                Let&apos;s Be Visible
+              </a>
+              " -{' '}
+              <a
+                href='https://lbvisible.com'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                lbvisible.com
+              </a>
+            </p>
           </div>
         </div>
       </footer>
